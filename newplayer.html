@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title>New Player | Open Source Responsive Media by The New Group</title>
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+
+	<link rel="stylesheet" href="newplayer.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+	<link href="prism.css" rel="stylesheet" />
+
+</head>
+
+	<body>
+		<header>
+			<br />
+				<a href="newplayer.html"><img src="assets/logo.png" /></a>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="#examples">Examples</a></li>
+				<li><a href="#use">How to Use</a></li>
+				<li><a href="#resources">Resources</a></li>
+			</ul>
+		</nav>
+
+<!--headline-->
+
+		<div class="onerow">
+			<div class="headline">
+				<h1>Powerful, flexible content delivery</h1>
+				<p class="subhead">Open source, responsive and cross-platform. A new kind of interective media player by <a class="alt" href="http://thenewgroup.com" target=_blank>The New Group</a></p>
+			</div>
+		</div>
+
+<!--large icon links]-->
+
+		<div class="onerow">
+			<div class="col3">
+				<a class="alt" href="#" target=_blank><img src="assets/github.png" /></a>
+				<p class="titles">View on Github</p>
+			</div>
+			<div class="col3">
+				<a class="alt" href="#" target=_blank><img src="assets/download.png" /></a>
+				<p class="titles">Direct Download</p>
+			</div>
+		</div>
+
+<!--second description area-->
+
+		<div class="onerow">
+			<h2>Why New Player?</h2>
+			<p class="maintext">hipster house Tasty & Sons stripclubs IPA clouds Hawthorne breweries farm to table DIY secular humanists put a bird on it tulips Pearl District Saturday Market brewvana. James Mercer more rain indie rock microbrew tall bikes no, you go zinester nanobrewery vibrant Burnside gluten free The Bins unicycling with. 
+		</div>
+
+<!--examples area-->
+
+		<a name="examples"></a>
+
+		<div class="onerow">	
+			<div class="bluebar">
+				<h2 class="grey">Examples</h2>
+				<p class="subtext">hipster house Tasty & Sons stripclubs IPA clouds Hawthorne breweries farm to table DIY secular humanists put a bird on it tulips Pearl District Saturday Market brewvana. James Mercer more rain indie rock microbrew tall bikes no, you go zinester nanobrewery vibrant Burnside gluten free The Bins unicycling with bagpipes and Darth Vader mask Belmont Hood to Coast IPA.</p>
+				<br /><br />
+				<div class="col3">
+					<a class="alt" href="#" target=_blank><img src="assets/examples.jpg" /></a>
+				</div>
+				<div class="col3">
+					<a class="alt" href="#" target=_blank><img src="assets/examples.jpg" /></a>
+				</div>
+				<div class="col3">
+					<a class="alt" href="#" target=_blank><img src="assets/examples.jpg" /></a>
+				</div>
+			</div>
+		</div>
+
+<!--snippet area [middle blue bar]-->
+
+		<a name="use"></a>
+
+		<div class="onerow">
+			<div class="whitebar">
+				<div class="col4">
+					<h2 class="lefttext">Beauty and simplicity.</h2>
+					<p class="lefttext">hipster house Tasty & Sons stripclubs IPA clouds Hawthorne breweries farm to table DIY secular humanists put a bird on it tulips Pearl District Saturday Market brewvana. James Mercer more rain indie rock microbrew tall bikes no, you go zinester nanobrewery vibrant Burnside</p>
+					<br /><br />
+					<h2 class="lefttext">How to use</h2>
+					<p class="lefttext">hipster house Tasty & Sons stripclubs IPA clouds Hawthorne breweries farm to table DIY secular humanists put a bird on it tulips Pearl District Saturday Market brewvana. James Mercer more rain indie rock microbrew tall bikes no, you go zinester nanobrewery vibrant Burnside gluten free The Bins unicycling with bagpipes and Darth Vader mask Belmont Hood to Coast IPA.</p>
+					<br /><br />
+					<h2 class="lefttext">Snippets</h2>
+					<p class="lefttext">hipster house Tasty & Sons stripclubs IPA clouds Hawthorne breweries farm to table DIY secular humanists put a bird on it tulips Pearl District Saturday Market brewvana. </p>
+				</div>
+
+				<div class="col6">
+
+<!--begin code snippet-->
+
+<pre>
+	<code class="language-css">
+
+		&lt;div class="container">
+			&lt;div class="main" ng-class="{'cover':coverSupported}">
+				&lt;div ui-view="init" autoscroll='true'>
+					&lt;div class="preloader">
+						&lt;em class="fa fa-refresh fa-spin">
+						&lt;/em>
+					&lt;/div>
+				&lt;/div>
+			&lt;/div>
+		&lt;/div>
+
+		&lt;script src="bower_components/angular/angular.js">&#60;/script>
+		&lt;script src="bower_components/ui-router/release/angular-ui-router.js">&#60;/script>
+		&lt;script src="bower_components/angular-sanitize/angular-sanitize.js">&#60;/script>
+		&lt;script src="bower_components/oclazyload/dist/ocLazyLoad.min.js">&#60;/script>
+		&lt;script src="bower_components/angular-touch/angular-touch.js">&#60;/script>
+								
+		&lt;script src="scripts/api/APIService.js">&#60;/script>
+		&lt;script src="scripts/api/ConfigService.js">&#60;/script>
+		&lt;script src="scripts/manifest/ManifestService.js">&#60;/script>
+		&lt;script src="scripts/manifest/ManifestCtrl.js">&#60;/script>
+		&lt;script src="scripts/component/ComponentService.js">&#60;/script>
+		&lt;script src="scripts/component/ComponentDirective.js">&#60;/script>
+		&lt;script src="scripts/Router.js">&#60;/script>
+		&lt;script src="scripts/AppCtrl.js">&#60;/script>
+		&lt;script src="scripts/main.js">&#60;/script>
+
+	</code>
+</pre>
+
+<!--end code snippet-->
+
+				</div>
+			</div>
+		</div>
+
+<!--footer [bottom blue bar]-->
+
+		<a name="resources"></a>
+		
+		<div class="onerow">	
+			<div class="bluebar">
+				<h2 class="grey">Resources</h2>
+				<p class="subtext">hipster house Tasty & Sons stripclubs IPA clouds Hawthorne breweries farm to table DIY secular humanists put a bird on it tulips Pearl District Saturday Market brewvana. James Mercer more rain indie rock microbrew tall bikes no, you go zinester nanobrewery vibrant Burnside gluten free The Bins unicycling with bagpipes and Darth Vader mask Belmont Hood to Coast IPA.
+				<!--<h3 class="grey">Insights:</h3>
+				<p class="subtext"><a href="http://thenewgroup.com/thoughts" target=_blank>www.thenewgroup.com/thoughts</a></p>-->
+				<h3 class="grey">Questions:</h3>
+				<p class="subtext"><a href="mailto:contactus@thenewgroup.com">contactus@newplayer.com</a></p>
+				<p class="subtext"><a href="tel://5032484505">Phone: 503-248-4505</a>  |  Email <a href="mailto:info@thenewgroup.com">info@newplayer.com</a></p>
+				<p class="copyright">&copy; New Player 2014-2015</p>
+			</div>
+		</div>
+
+	</body>
+
+	<!--Prism syntax highlighter-->
+
+	<script src="prism.js"></script>
+
+<!--End Prism syntax highlighter-->
+
+</html>
